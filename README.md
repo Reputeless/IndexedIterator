@@ -22,11 +22,11 @@ for (auto [i, n] : Indexed(v))
 ------
 
 ```cpp
-std::map<std::string, std::string> m = { { "aaa", "AAA" }, { "bbb", "BBB" }, { "ccc", "CCC" } };
+std::string s = "Hello, world!";
 
-for (auto [i, p] : Indexed(m))
+for (auto [i, ch] : Indexed(v))
 {
-	std::cout << i << ": " << p.first << ", " << p.second << "\n"; 
+	std::cout << i << ": " << ch << "\n"; 
 }
 ```
 ```
@@ -48,12 +48,12 @@ for (auto [i, p] : Indexed(m))
 ------
 
 ```cpp
-std::vector<int> v = { 100, 200, 300, 400, 500 };
+std::map<std::string, std::string> m = { { "aaa", "AAA" }, { "bbb", "BBB" }, { "ccc", "CCC" } };
 
-for (auto [i, n] : Indexed(v))
+for (auto [i, p] : Indexed(m))
 {
-	std::cout << i << ": " << n << "\n"; 
-}  
+	std::cout << i << ": " << p.first << ", " << p.second << "\n"; 
+} 
 ```
 ```
 0: aaa, AAA
