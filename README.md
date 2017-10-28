@@ -3,6 +3,8 @@ Header-only Indexed iterator library for modern C++
 
 ## Examples
 
+### std::vector
+
 ```cpp
 std::vector<int> v = { 0, 100, 200, 300, 400, 500 };
 
@@ -20,7 +22,7 @@ for (auto [i, n] : Indexed(v))
 5: 500
 ```
 
-------
+### std::string
 
 ```cpp
 std::string s = "Hello, world!";
@@ -46,7 +48,7 @@ for (auto [i, ch] : Indexed(v))
 12: !
 ```
 
-------
+### std::map
 
 ```cpp
 std::map<std::string, std::string> m = { { "aaa", "AAA" }, { "bbb", "BBB" }, { "ccc", "CCC" } };
