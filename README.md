@@ -4,7 +4,7 @@ Header-only Indexed iterator library for modern C++
 ## Examples
 
 ```cpp
-const std::vector<int> v = { 100, 200, 300, 400, 500 };
+std::vector<int> v = { 100, 200, 300, 400, 500 };
 
 for (auto [i, n] : Indexed(v))
 {
@@ -22,7 +22,7 @@ for (auto [i, n] : Indexed(v))
 ------
 
 ```cpp
-const std::map<std::string, std::string> m = { { "aaa", "AAA" }, { "bbb", "BBB" }, { "ccc", "CCC" } };
+std::map<std::string, std::string> m = { { "aaa", "AAA" }, { "bbb", "BBB" }, { "ccc", "CCC" } };
 
 for (auto [i, p] : Indexed(m))
 {
@@ -48,7 +48,7 @@ for (auto [i, p] : Indexed(m))
 ------
 
 ```cpp
-const std::vector<int> v = { 100, 200, 300, 400, 500 };
+std::vector<int> v = { 100, 200, 300, 400, 500 };
 
 for (auto [i, n] : Indexed(v))
 {
