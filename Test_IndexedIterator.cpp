@@ -32,7 +32,7 @@ int main()
 		std::cout << i << ": " << ch << "\n"; 
 	}
 	
-	const std::map<std::string, std::string> m = { {"aaa", "AAA" }, {"bbb", "BBB" }, {"ccc", "CCC" } };
+	const std::map<std::string, std::string> m = { { "aaa", "AAA" }, { "bbb", "BBB" }, { "ccc", "CCC" } };
 	
 	for (auto [i, p] : Indexed(m))
 	{
