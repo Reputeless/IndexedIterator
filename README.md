@@ -1,5 +1,5 @@
-# IndexedIterator
-Header-only Indexed iterator library for modern C++
+# Indexed Iterator
+Header-only indexed iterator library for modern C++
 
 ## Examples
 
