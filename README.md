@@ -4,7 +4,7 @@ Header-only Indexed iterator library for modern C++
 ## Examples
 
 ```cpp
-std::vector<int> v = { 100, 200, 300, 400, 500 };
+std::vector<int> v = { 0, 100, 200, 300, 400, 500 };
 
 for (auto [i, n] : Indexed(v))
 {
@@ -12,11 +12,12 @@ for (auto [i, n] : Indexed(v))
 }  
 ```
 ```
-0: 100
-1: 200
-2: 300
-3: 400
-4: 500
+0: 0
+1: 100
+2: 200
+3: 300
+4: 400
+5: 500
 ```
 
 ------
