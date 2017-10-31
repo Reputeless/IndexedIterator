@@ -1,5 +1,5 @@
-# Indexed Iterator
-Header-only indexed iterator library for modern C++
+# siv::IndexedIterator
+**siv::IndexedIterator** is a header-only indexed iterator library for modern C++.
 
 ## Examples
 
